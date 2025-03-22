@@ -39,3 +39,9 @@ p {
     font-weight: 600;
     cursor: pointer;
 }
+ul {
+    padding: 10px;
+}
+li {
+    list-style-type: square;
+}
