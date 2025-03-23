@@ -39,3 +39,10 @@ p {
     font-weight: 600;
     cursor: pointer;
 }
+a {
+    text-decoration-line: none;
+    transition: all 0.2s ease-in-out;
+}
+a:hover {
+    color: #fa1;
+}
