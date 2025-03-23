@@ -12,7 +12,7 @@ main {
     width: 50%;
     max-width: 800px;
     background-color: aqua;
-    padding: 20px;
+    padding: 20px 40px;
     color: #000;
     margin: 20px auto;
     border-radius: 20px;
@@ -45,9 +45,30 @@ a {
 }
 a:hover {
     color: #fa1;
-}ul {
+}
+ul {
     padding: 10px;
 }
 li {
     list-style-type: square;
+}
+.navigation {
+    background-color: gray;
+}
+.navigation ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.navigation ul li {
+    list-style-type: none;
+}
+.navigation ul li a {
+    font-weight: 600;
+    color: #000;
+    transition: all 0.2s ease-in-out;
+}
+.navigation a:hover {
+    color: #fff;
 }
