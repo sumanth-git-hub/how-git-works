@@ -7,6 +7,7 @@
 body {
     background-color: #333;
     color: #fff;
+    position: relative;
 }
 main {
     width: 50%;
@@ -14,7 +15,7 @@ main {
     background-color: aqua;
     padding: 20px 40px;
     color: #000;
-    margin: 20px auto;
+    margin: 100px auto;
     border-radius: 20px;
 }
 main.change-bg {
@@ -54,6 +55,10 @@ li {
 }
 .navigation {
     background-color: gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 .navigation ul {
     display: flex;
