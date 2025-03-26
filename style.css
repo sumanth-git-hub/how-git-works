@@ -153,3 +153,39 @@ li {
 ::selection {
     background-color: yellowgreen;
 }
+.disclaimer-accord {
+    background-color: #91b3c461;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.disclaimer-accord h3 {
+    font-size: 18px;
+}
+.disclaimer-accord h3::before {
+    content: "";
+    display: inline-block;
+    height: 0.8rem;
+    width: 3px;
+    margin-right: 10px;
+    background-color: #fa1;
+}
+.disclaimer-accord p {
+    font-size: 14px;
+}
+.disclaimer-accord i {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.answer-section {
+    display: none;
+    padding: 2px 10px;
+    margin-top: 10px;
+}
+.answer-section.show-answer {
+    display: block;
+}
+.click-section {
+    cursor: pointer;
+}

@@ -42,7 +42,30 @@
             <li>git fetch: git fetch is a primary command used to download contents from a remote repository.</li>
             <li>git merge origin/'branch name': merging the remote branch</li>
         </ul>
+        <div class="disclaimer-accord">
+            <div class="click-section">
+                <i class="fa-solid fa-angle-down"></i>
+            <h3>Disclaimer</h3>
+            </div>
+            <p class="answer-section">The information added here is sourced from the reliable sources on the internet kindly crosscheck before going to take any actions</p>
+        </div>
         <button id="color-button">Change Background Color</button>
     </main>
+    <script>
+        const disclaimerSection = document.querySelector(".click-section");
+
+        disclaimerSection.addEventListener("click", (e) => {
+            console.log(disclaimerSection.children[0])
+            if(disclaimerSection.children[0].classList.contains("fa-angle-down")){
+                disclaimerSection.children[0].classList.remove("fa-angle-down");
+                disclaimerSection.children[0].classList.add("fa-angle-up");
+            }
+            else {
+                disclaimerSection.children[0].classList.add("fa-angle-down");
+                disclaimerSection.children[0].classList.remove("fa-angle-up");
+            }
+           disclaimerSection.nextElementSibling.classList.toggle("show-answer")
+        })
+    </script>
 </body>
 </html>
