@@ -6,4 +6,13 @@ backgroundColor.addEventListener("click", (e) => {
 
 setTimeout(() => {
     console.log(backgroundColor)
+<<<<<<< Updated upstream
 }, 4000);
+=======
+}, 3000);
+
+const helloJavaScript = () => {
+    console.log("Learn JavaScript")
+};
+helloJavaScript();
+>>>>>>> Stashed changes
