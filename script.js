@@ -6,4 +6,4 @@ backgroundColor.addEventListener("click", (e) => {
 
 setTimeout(() => {
     console.log(backgroundColor)
-}, 6000);
+}, 4000);
