@@ -55,11 +55,11 @@
         const disclaimerSection = document.querySelector(".click-section");
 
         disclaimerSection.addEventListener("click", (e) => {
-            console.log(disclaimerSection.children[0])
+            console.log(disclaimerSection.children)
             if(disclaimerSection.children[0].classList.contains("fa-angle-down")){
                 disclaimerSection.children[0].classList.remove("fa-angle-down");
                 disclaimerSection.children[0].classList.add("fa-angle-up");
-                console.log(disclaimerSection.nextElementSibling)
+                console.log(disclaimerSection.nextElementSibling.textContent)
             }
             else {
                 disclaimerSection.children[0].classList.add("fa-angle-down");
